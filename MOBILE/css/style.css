@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    /*text-decoration: none;*/
+}
+
+ul, ol {
+    /*list-style: none;*/
+    list-style: inside;
+}
+
+.clr {
+    clear: both;
+}
+
+body, input, button, option, textarea, label, select, legend, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font: 14px/18px Arial, Helvetica, sans-serif;
+    color: #333;
+    outline: none;
+}
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    text-rendering: geometricPrecision;
+}
+input[type=text], input[type=tel], textarea {
+    -webkit-appearance: none;
+}
+body{
+    background-color: #F2DBCD;
+    color: black;
+}
+body a:link{
+    color: white;
+    font-weight: bold;
+    text-decoration:none;
+}
+.wrapper-tt{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: auto
+}
+[class^="icontt-"], [class*="icontt-"] {
+    background-image:url(../images/iconsocial.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 72px;
+    width: 72px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 72px 256px;
+}
+
+.customFontSize{
+    font-size: 14px;
+}
+
+.block-header img{
+    width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: auto
+}
+.container{
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+p, ul{
+    padding: 0 10px;
+    font-family: Helvetica;
+    font-size: 17px;
+    line-height: 30px !important;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+.outline img {
+    width: 100%;
+}
+.font-bold{
+    font-weight: bold;
+}
+.img-fullscreen img{
+    width: 100%;
+}
+.how-richkid .container, .combo-cheapkid .container, .combo-richkid .container{
+    margin-bottom: 20px;
+}
+
+.del-marginbottom{
+    margin-bottom: 0 !important;
+}
+.del-margintop{
+    margin-top: 0 !important;
+}
+.how-richkid img, .combo-cheapkid img{
+    margin-bottom: 20px;
+}
+.outline img{
+    margin-top: 0;   
+}
+
+h3 iframe{
+    margin-bottom: 10px;
+}
+
+.container p{
+ margin-bottom: 20px;
+}
+
+.button_buy{
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.buynow{
+    margin: auto;
+    width: 250px;
+    text-align: center;
+    line-height: 20.8px;
+    background: -webkit-linear-gradient(top,#f89406,#f76b1c);
+    border: 1px solid #d97f00;
+    padding: 5px 15px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    
+}
+
+.buynow span{
+    color: rgb(255, 255, 0);
+    font-weight: bold;
+}
+
+.note{
+    font-size: 13px !important;
+    font-style: italic;
+    line-height: 20px !important;
+}
+
+.youtube .caption-youtube{
+    color: #999;
+    font-size: 14px;
+    font-style: italic;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.youtube{
+    margin-bottom: 20px;
+}
+
+.override-background{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dddddd+0,ffffff+100 */
+    background: #dddddd; /* Old browsers */
+    background: -moz-linear-gradient(top,  #dddddd 0%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #dddddd 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #dddddd 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.img-gif{
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+img.animated-gif{
+  width: auto;
+  height: 315;
+}
+
+.font-italic{
+    font-style: italic;
+}

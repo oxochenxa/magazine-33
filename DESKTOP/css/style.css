@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+    display: block;
+}
+
+a {
+    /*text-decoration: none;*/
+}
+
+ul, ol {
+    /*list-style: none;*/
+    list-style: inside;
+}
+
+.clr {
+    clear: both;
+}
+
+body, input, button, option, textarea, label, select, legend, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font: 14px/18px Arial, Helvetica, sans-serif;
+    color: #333;
+    outline: none;
+}
+
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    text-rendering: geometricPrecision;
+}
+input[type=text], input[type=tel], textarea {
+    -webkit-appearance: none;
+}
+
+body{
+    background-color: #F2DBCD;
+    /*background-image: url(../images/background.jpg);*/
+    /*color: black;*/
+}
+
+body a:link{
+    color: white;
+    -webkit-text-fill-color: white;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+section{
+    max-width: 1920px;
+    width: 100%;
+    min-width: 980px;
+    margin: 0 auto;
+}
+
+article{
+    display: block;
+    overflow: hidden;
+    width: 800px;
+    margin: auto;
+}
+p{
+    margin: 0 auto 20px auto;
+    font-size: 16px;
+    /*color: #333;*/
+    line-height: 28px;
+    color: black;
+}
+article p{
+    width: 600px;
+}
+
+.column p {
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.customFontSize{
+    font-size: 14px;
+}
+.block-header{
+    margin-bottom: 20px;
+}
+
+.block-footer{
+    margin-bottom: 0!important;
+}
+
+.outline{
+    width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+.img-fullsize, .img-medium, .img-medium-, .img-medium--{
+    margin: 0 auto 20px auto;
+}
+.img-medium{
+    width: 600px;
+}
+
+.img-medium-{
+    width: 700px;
+}
+
+.img-medium--{
+    width: 1200px;
+}
+
+.img-left{
+    position: relative;
+    right: 38%;
+}
+
+.row{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column{
+  float: left;
+  width: 50%;
+}
+
+.column img{
+    width: 140%;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+.font-italic{
+    font-style: italic;
+}
+
+.column:nth-child(odd){
+    margin-right: 5%;
+}
+
+.column:nth-child(even){
+    margin-left: 5%;
+}
+
+.youtube .caption-youtube{
+    color: #999;
+    font-size: 14px;
+    font-style: italic;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.delete-bottom{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.youtube{
+    margin-bottom: 20px;
+}
+
+.img-fullsize{
+    width: 100%;
+}
