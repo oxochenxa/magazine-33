@@ -45,8 +45,8 @@ body{
 }
 
 body a:link{
-    color: white;
-    -webkit-text-fill-color: white;
+    color: black;
+    -webkit-text-fill-color: black;
     font-weight: bold;
     text-decoration:none;
 }
